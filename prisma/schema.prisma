@@ -1,0 +1,311 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ✅ 사용자
+model User {
+  id        Int        @id @default(autoincrement())
+  email     String     @unique
+  password  String
+  role      String     @default("USER")
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+  deletedAt DateTime?
+  isActive  Boolean     @default(true) // ✅탈퇴 또는 비활성화 여부
+
+  // 관계
+  userProfiles             UserProfile[]
+  trips                    Trip[]
+  companions               Companion[]
+  esgReports               EsgReport[]                  @relation("UserToEsgReports")
+  posts                    Post[] // ✅ 연결된 게시글들
+  Like                     Like[] // ✅ 좋아요 기능
+  logs                     UserLog[] // ✅ 사용자 활동 로그들
+  resetTokens              PasswordResetToken[] // ✅ 사용자 → 초기화 토큰들
+  carbonTransactions       CarbonTransaction[]          @relation("UserToCarbonTransactions")
+  matchingCandidates       CompanionMatchingCandidate[] @relation("CandidateToMatching")
+  matchingRequestsSent     CompanionMatchingRequest[]   @relation("RequestSender")
+  matchingRequestsReceived CompanionMatchingRequest[]   @relation("RequestReceiver")
+}
+
+// ✅ 사용자 프로파일
+model UserProfile {
+  id                    Int      @id @default(autoincrement())
+  userId                Int      @unique
+  name                  String?
+  nickname              String?  @unique
+  bio                   String? // 자기소개
+  age                   Int?
+  gender                String?
+  travelType            String?
+  interests             String[]
+  budgetLevel           String?
+  preferredSeason       String?
+  ecoFriendly           Boolean?
+  country               String?
+  recordedAt            DateTime @default(now()) // 사용자 시스템 활동 로그
+  user                  User     @relation(fields: [userId], references: [id])
+  tripsAsProfileHistory Trip[]   @relation("TripToProfileHistory")
+  tripsAsCurrentProfile Trip[]   @relation("TripToCurrentProfile")
+}
+
+// ✅ 이메일 비밀번호
+model PasswordResetToken {
+  id        Int      @id @default(autoincrement())
+  userId    Int
+  user      User     @relation(fields: [userId], references: [id])
+  token     String   @unique
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+}
+
+// ✅ 사용자 활동 로그
+model UserLog {
+  id        Int      @id @default(autoincrement())
+  userId    Int
+  action    String // 예: 'LOGIN', 'LOGOUT', 'UPDATE_PROFILE', 'DELETE_ACCOUNT'
+  ipAddress String? // 요청자 IP
+  userAgent String? // 브라우저/OS 정보
+  metadata  Json? // 추가 정보 (선택)
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id])
+}
+
+// ✅ 여행
+model Trip {
+  id               Int  @id @default(autoincrement())
+  userId           Int
+  userProfileId    Int?
+  profileHistoryId Int?
+
+  title           String
+  countryCode     String
+  distanceKm      Int?
+  publicTransport Boolean  @default(false)
+  startDate       DateTime
+  endDate         DateTime
+  createdAt       DateTime @default(now())
+
+  user       User        @relation(fields: [userId], references: [id])
+  companions Companion[]
+
+  profileHistory UserProfile? @relation("TripToProfileHistory", fields: [profileHistoryId], references: [id])
+  currentProfile UserProfile? @relation("TripToCurrentProfile", fields: [userProfileId], references: [id])
+
+  matchingCandidates CompanionMatchingCandidate[] @relation("TripToMatching")
+  matchingRequests   CompanionMatchingRequest[]
+}
+
+// ✅ 여행 동행자
+model Companion {
+  id        Int       @id @default(autoincrement())
+  userId    Int
+  tripId    Int
+  status    String    @default("pending")
+  matchedAt DateTime?
+
+  trip Trip @relation(fields: [tripId], references: [id])
+  user User @relation(fields: [userId], references: [id])
+}
+
+// ✅ 추천된 동행 후보
+model CompanionMatchingCandidate {
+  id          Int      @id @default(autoincrement())
+  tripId      Int
+  candidateId Int
+  matchScore  Int
+  status      String   @default("suggested")
+  createdAt   DateTime @default(now())
+
+  trip      Trip @relation("TripToMatching", fields: [tripId], references: [id])
+  candidate User @relation("CandidateToMatching", fields: [candidateId], references: [id])
+
+  @@unique([tripId, candidateId])
+}
+
+// ✅ 동행자 요청 기록
+model CompanionMatchingRequest {
+  id              Int      @id @default(autoincrement())
+  tripId          Int
+  userId          Int
+  candidateUserId Int
+  status          String   @default("pending")
+  createdAt       DateTime @default(now())
+
+  trip      Trip @relation(fields: [tripId], references: [id])
+  user      User @relation("RequestSender", fields: [userId], references: [id])
+  candidate User @relation("RequestReceiver", fields: [candidateUserId], references: [id])
+}
+
+// ✅ ESG 리포트
+model EsgReport {
+  id        Int      @id @default(autoincrement())
+  userId    Int
+  period    String
+  score     Int
+  summary   String?
+  createdAt DateTime @default(now())
+
+  user User @relation("UserToEsgReports", fields: [userId], references: [id])
+}
+
+// ✅ 탄소 적립 내역
+model CarbonTransaction {
+  id        Int      @id @default(autoincrement())
+  userId    Int
+  amount    Int
+  type      String
+  createdAt DateTime @default(now())
+
+  user User @relation("UserToCarbonTransactions", fields: [userId], references: [id])
+}
+
+// ✅ 부모 게시판
+model Board {
+  id       Int     @id @default(autoincrement()) // 게시판 고유 ID (자동 증가)
+  name     String // 게시판 이름 (사용자에게 보이는 이름)
+  slug     String  @unique // 게시판 식별 코드 (URL 용도, 예: board_post)
+  type     String // 게시판 유형 (예: master, post, comment, file)
+  parentId Int? // 상위 게시판 ID (NULL이면 최상위)
+  parent   Board?  @relation("BoardToBoard", fields: [parentId], references: [id])
+  children Board[] @relation("BoardToBoard") // 자식 게시판 리스트
+
+  description  String? // 게시판 설명 (선택 항목)
+  isPublic     Boolean @default(true) // 게시판 공개 여부
+  allowPost    Boolean @default(true) // 글 작성 허용 여부
+  allowComment Boolean @default(true) // 댓글 허용 여부
+  allowFile    Boolean @default(false) // 파일 업로드 허용 여부
+
+  writePermission   String @default("ALL") // 글쓰기 권한 (ALL, LOGIN, ADMIN)
+  commentPermission String @default("ALL") // 댓글 권한
+  filePermission    String @default("LOGIN") // 파일 업로드 권한
+
+  displayOrder Int     @default(0) // 출력 순서 (UI 상 정렬 기준)
+  icon         String? // 아이콘 코드 또는 경로 (UI에서 표시용)
+
+  createdAt DateTime @default(now()) // 생성 시각
+  updatedAt DateTime @updatedAt // 수정 시각
+
+  posts Post[] // 연결된 게시글들
+}
+
+// ✅ 게시글(Post)
+model Post {
+  id      Int   @id @default(autoincrement()) // 게시글 고유 ID
+  boardId Int // 연결된 게시판
+  board   Board @relation(fields: [boardId], references: [id])
+
+  userId Int // 작성자
+  user   User @relation(fields: [userId], references: [id])
+
+  title     String // 제목
+  content   String // 본문 (텍스트 기준, 에디터용)
+  views     Int     @default(0) // 조회수
+  isNotice  Boolean @default(false) // 공지글 여부
+  isSecret  Boolean @default(false) // 비밀글 여부
+  isDeleted Boolean @default(false) // 삭제 여부 (soft-delete)
+
+  createdAt    DateTime @default(now()) // 생성일
+  updatedAt    DateTime @updatedAt // 수정일
+  parentPostId Int? // ✅ 부모 게시글 ID (댓글일 경우)
+  childPosts   Post[]   @relation("ParentChild") // ✅ 자식 댓글 목록
+  parentPost   Post?    @relation("ParentChild", fields: [parentPostId], references: [id])
+
+  File  File[]
+  likes Like[]
+}
+
+// ✅ 파일 업로드
+model File {
+  id           Int      @id @default(autoincrement()) // 파일 고유 ID
+  postId       Int
+  post         Post     @relation(fields: [postId], references: [id]) // 연결된 게시글
+  originalName String // 원본 파일명
+  storedName   String // 저장된 파일명 (UUID 등)
+  mimeType     String // MIME 타입
+  size         Int // 파일 크기 (byte)
+  path         String // 저장 경로 또는 S3 URL
+  createdAt    DateTime @default(now())
+  //children     File[]   @relation("FileToFile")  // 자식 파일들 (예: 버전, 썸네일 등)
+}
+
+// ✅ 댓글 점수
+model Like {
+  id        Int      @id @default(autoincrement()) // 좋아요 고유 ID
+  userId    Int // 누른 사용자
+  postId    Int // 좋아요 대상 게시글 ID
+  createdAt DateTime @default(now()) // 좋아요 누른 시간
+
+  user User @relation(fields: [userId], references: [id])
+  post Post @relation(fields: [postId], references: [id])
+
+  @@unique([userId, postId], name: "userId_postId") // 한 유저가 하나의 게시글에 한 번만 좋아요 가능
+}
+
+// ✅ 관리자 - 계정
+model AdminAccount {
+  id                Int                 @id @default(autoincrement())
+  email             String              @unique
+  password          String
+  role              AdminRole           @default(ADMIN)
+  createdAt         DateTime            @default(now())
+  deletedAt         DateTime? // ✅ @default(null) 제거
+  AdminLog          AdminLog[]
+  PasswordChangeLog PasswordChangeLog[]
+}
+
+// ✅ 관리자 - 로그
+model AdminLog {
+  id          Int       @id @default(autoincrement())
+  adminId     Int
+  admin       AdminAccount @relation(fields: [adminId], references: [id])
+  type        LogType    @default(LOGIN)          // 기본값 지정
+  ip          String    @default("0.0.0.0")      // 기본값 지정
+  userAgent   String    @default("unknown")      // 기본값 지정
+  success     Boolean   @default(false)          // 기본값 지정
+  action      String?   // 선택사항
+  targetType  String?   // 선택사항
+  targetId    Int?      // 선택사항
+  detail      String?   // 선택사항
+  deletedAt   DateTime?
+  createdAt   DateTime  @default(now())
+
+  passwordChangeLogs  PasswordChangeLog[]  // 반대 방향 필드 추가
+
+  @@index([adminId])
+}
+
+// ✅ 관리자 - 로그 - 이넘(고정값)
+enum LogType {
+  LOGIN
+  LOGOUT
+  POST
+  COMMENT
+  DASHBOARD
+}
+
+enum AdminRole {
+  SUPER
+  ADMIN
+  STAFF
+}
+
+//
+model PasswordChangeLog {
+  id          Int          @id @default(autoincrement())
+  adminId     Int
+  admin       AdminAccount @relation(fields: [adminId], references: [id])
+  changedAt   DateTime     @default(now())
+  changedBy   String
+  description String?
+  AdminLog    AdminLog?    @relation(fields: [adminLogId], references: [id])
+  adminLogId  Int?
+
+  @@index([adminId])
+}

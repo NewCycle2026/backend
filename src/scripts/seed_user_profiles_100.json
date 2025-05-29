@@ -1,0 +1,1599 @@
+[
+  {
+    "userId": 66,
+    "recordedAt": "2025-01-17T03:52:34",
+    "age": 63,
+    "gender": "female",
+    "travelType": "friends",
+    "interests": [
+      "history",
+      "mountain",
+      "nature"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "summer",
+    "ecoFriendly": false,
+    "country": "FR"
+  },
+  {
+    "userId": 77,
+    "recordedAt": "2023-08-28T09:49:24",
+    "age": 50,
+    "gender": "other",
+    "travelType": "couple",
+    "interests": [
+      "culture",
+      "history"
+    ],
+    "budgetLevel": "medium",
+    "preferredSeason": "autumn",
+    "ecoFriendly": true,
+    "country": "ES"
+  },
+  {
+    "userId": 93,
+    "recordedAt": "2025-02-07T08:45:32",
+    "age": 37,
+    "gender": "other",
+    "travelType": "friends",
+    "interests": [
+      "history",
+      "food"
+    ],
+    "budgetLevel": "medium",
+    "preferredSeason": "autumn",
+    "ecoFriendly": false,
+    "country": "BR"
+  },
+  {
+    "userId": 98,
+    "recordedAt": "2024-07-18T10:02:21",
+    "age": 52,
+    "gender": "female",
+    "travelType": "friends",
+    "interests": [
+      "nature",
+      "mountain",
+      "adventure"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "winter",
+    "ecoFriendly": true,
+    "country": "VN"
+  },
+  {
+    "userId": 6,
+    "recordedAt": "2024-12-22T19:03:01",
+    "age": 38,
+    "gender": "other",
+    "travelType": "friends",
+    "interests": [
+      "nature",
+      "history",
+      "adventure",
+      "mountain"
+    ],
+    "budgetLevel": "medium",
+    "preferredSeason": "spring",
+    "ecoFriendly": true,
+    "country": "BR"
+  },
+  {
+    "userId": 76,
+    "recordedAt": "2023-03-26T18:56:19",
+    "age": 39,
+    "gender": "male",
+    "travelType": "friends",
+    "interests": [
+      "food",
+      "history"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "summer",
+    "ecoFriendly": false,
+    "country": "US"
+  },
+  {
+    "userId": 10,
+    "recordedAt": "2023-01-14T05:15:22",
+    "age": 48,
+    "gender": "female",
+    "travelType": "family",
+    "interests": [
+      "adventure",
+      "history",
+      "beach",
+      "culture"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "winter",
+    "ecoFriendly": false,
+    "country": "IT"
+  },
+  {
+    "userId": 70,
+    "recordedAt": "2023-12-23T15:30:50",
+    "age": 20,
+    "gender": "other",
+    "travelType": "solo",
+    "interests": [
+      "adventure",
+      "nature"
+    ],
+    "budgetLevel": "medium",
+    "preferredSeason": "summer",
+    "ecoFriendly": true,
+    "country": "VN"
+  },
+  {
+    "userId": 13,
+    "recordedAt": "2023-01-27T17:58:47",
+    "age": 66,
+    "gender": "other",
+    "travelType": "solo",
+    "interests": [
+      "mountain",
+      "adventure",
+      "culture"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "spring",
+    "ecoFriendly": false,
+    "country": "KR"
+  },
+  {
+    "userId": 38,
+    "recordedAt": "2024-09-05T16:30:10",
+    "age": 40,
+    "gender": "female",
+    "travelType": "friends",
+    "interests": [
+      "mountain",
+      "food"
+    ],
+    "budgetLevel": "medium",
+    "preferredSeason": "summer",
+    "ecoFriendly": true,
+    "country": "US"
+  },
+  {
+    "userId": 11,
+    "recordedAt": "2024-08-22T16:00:47",
+    "age": 57,
+    "gender": "female",
+    "travelType": "couple",
+    "interests": [
+      "food",
+      "mountain",
+      "adventure"
+    ],
+    "budgetLevel": "medium",
+    "preferredSeason": "autumn",
+    "ecoFriendly": false,
+    "country": "ES"
+  },
+  {
+    "userId": 86,
+    "recordedAt": "2022-05-22T16:19:01",
+    "age": 18,
+    "gender": "female",
+    "travelType": "family",
+    "interests": [
+      "food",
+      "mountain",
+      "beach",
+      "history"
+    ],
+    "budgetLevel": "medium",
+    "preferredSeason": "autumn",
+    "ecoFriendly": false,
+    "country": "ES"
+  },
+  {
+    "userId": 59,
+    "recordedAt": "2024-12-07T05:16:04",
+    "age": 37,
+    "gender": "male",
+    "travelType": "friends",
+    "interests": [
+      "beach",
+      "mountain",
+      "history"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "autumn",
+    "ecoFriendly": false,
+    "country": "ES"
+  },
+  {
+    "userId": 3,
+    "recordedAt": "2023-10-07T08:24:32",
+    "age": 60,
+    "gender": "female",
+    "travelType": "family",
+    "interests": [
+      "food",
+      "adventure"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "spring",
+    "ecoFriendly": false,
+    "country": "ES"
+  },
+  {
+    "userId": 100,
+    "recordedAt": "2024-06-18T19:32:11",
+    "age": 69,
+    "gender": "male",
+    "travelType": "family",
+    "interests": [
+      "adventure",
+      "mountain"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "autumn",
+    "ecoFriendly": true,
+    "country": "JP"
+  },
+  {
+    "userId": 81,
+    "recordedAt": "2022-06-21T01:08:27",
+    "age": 59,
+    "gender": "male",
+    "travelType": "family",
+    "interests": [
+      "beach",
+      "food",
+      "culture"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "summer",
+    "ecoFriendly": true,
+    "country": "ES"
+  },
+  {
+    "userId": 42,
+    "recordedAt": "2022-11-11T13:43:34",
+    "age": 65,
+    "gender": "female",
+    "travelType": "couple",
+    "interests": [
+      "mountain",
+      "food"
+    ],
+    "budgetLevel": "medium",
+    "preferredSeason": "autumn",
+    "ecoFriendly": true,
+    "country": "ES"
+  },
+  {
+    "userId": 62,
+    "recordedAt": "2023-12-06T15:53:56",
+    "age": 69,
+    "gender": "female",
+    "travelType": "family",
+    "interests": [
+      "history",
+      "beach"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "summer",
+    "ecoFriendly": false,
+    "country": "BR"
+  },
+  {
+    "userId": 47,
+    "recordedAt": "2023-09-11T11:57:10",
+    "age": 23,
+    "gender": "female",
+    "travelType": "solo",
+    "interests": [
+      "food",
+      "beach",
+      "history"
+    ],
+    "budgetLevel": "medium",
+    "preferredSeason": "autumn",
+    "ecoFriendly": false,
+    "country": "TH"
+  },
+  {
+    "userId": 14,
+    "recordedAt": "2023-05-28T18:25:28",
+    "age": 61,
+    "gender": "male",
+    "travelType": "friends",
+    "interests": [
+      "food",
+      "nature"
+    ],
+    "budgetLevel": "medium",
+    "preferredSeason": "summer",
+    "ecoFriendly": true,
+    "country": "IT"
+  },
+  {
+    "userId": 90,
+    "recordedAt": "2022-08-19T18:36:07",
+    "age": 37,
+    "gender": "other",
+    "travelType": "friends",
+    "interests": [
+      "mountain",
+      "beach"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "autumn",
+    "ecoFriendly": false,
+    "country": "JP"
+  },
+  {
+    "userId": 13,
+    "recordedAt": "2023-05-30T23:20:20",
+    "age": 33,
+    "gender": "other",
+    "travelType": "couple",
+    "interests": [
+      "history",
+      "culture",
+      "food"
+    ],
+    "budgetLevel": "medium",
+    "preferredSeason": "summer",
+    "ecoFriendly": false,
+    "country": "JP"
+  },
+  {
+    "userId": 63,
+    "recordedAt": "2024-10-19T03:35:42",
+    "age": 57,
+    "gender": "female",
+    "travelType": "family",
+    "interests": [
+      "adventure",
+      "culture"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "winter",
+    "ecoFriendly": false,
+    "country": "FR"
+  },
+  {
+    "userId": 47,
+    "recordedAt": "2022-09-21T03:16:15",
+    "age": 24,
+    "gender": "other",
+    "travelType": "family",
+    "interests": [
+      "adventure",
+      "culture",
+      "beach",
+      "history"
+    ],
+    "budgetLevel": "medium",
+    "preferredSeason": "summer",
+    "ecoFriendly": true,
+    "country": "IT"
+  },
+  {
+    "userId": 12,
+    "recordedAt": "2022-10-01T20:23:14",
+    "age": 60,
+    "gender": "male",
+    "travelType": "solo",
+    "interests": [
+      "nature",
+      "culture"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "summer",
+    "ecoFriendly": true,
+    "country": "JP"
+  },
+  {
+    "userId": 98,
+    "recordedAt": "2024-06-14T18:01:58",
+    "age": 53,
+    "gender": "male",
+    "travelType": "couple",
+    "interests": [
+      "culture",
+      "mountain"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "spring",
+    "ecoFriendly": false,
+    "country": "US"
+  },
+  {
+    "userId": 17,
+    "recordedAt": "2022-09-06T07:25:29",
+    "age": 52,
+    "gender": "female",
+    "travelType": "couple",
+    "interests": [
+      "adventure",
+      "beach"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "spring",
+    "ecoFriendly": false,
+    "country": "FR"
+  },
+  {
+    "userId": 76,
+    "recordedAt": "2024-08-26T07:43:14",
+    "age": 38,
+    "gender": "male",
+    "travelType": "couple",
+    "interests": [
+      "beach",
+      "mountain",
+      "history"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "spring",
+    "ecoFriendly": true,
+    "country": "IT"
+  },
+  {
+    "userId": 58,
+    "recordedAt": "2022-12-03T03:41:13",
+    "age": 67,
+    "gender": "female",
+    "travelType": "solo",
+    "interests": [
+      "food",
+      "mountain",
+      "nature"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "autumn",
+    "ecoFriendly": false,
+    "country": "KR"
+  },
+  {
+    "userId": 8,
+    "recordedAt": "2022-12-07T05:46:33",
+    "age": 48,
+    "gender": "female",
+    "travelType": "friends",
+    "interests": [
+      "beach",
+      "history",
+      "adventure",
+      "nature"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "autumn",
+    "ecoFriendly": true,
+    "country": "JP"
+  },
+  {
+    "userId": 17,
+    "recordedAt": "2025-03-11T16:17:19",
+    "age": 35,
+    "gender": "other",
+    "travelType": "family",
+    "interests": [
+      "food",
+      "nature",
+      "culture"
+    ],
+    "budgetLevel": "medium",
+    "preferredSeason": "winter",
+    "ecoFriendly": true,
+    "country": "JP"
+  },
+  {
+    "userId": 84,
+    "recordedAt": "2024-05-29T02:48:23",
+    "age": 59,
+    "gender": "other",
+    "travelType": "couple",
+    "interests": [
+      "history",
+      "mountain",
+      "nature"
+    ],
+    "budgetLevel": "medium",
+    "preferredSeason": "winter",
+    "ecoFriendly": false,
+    "country": "VN"
+  },
+  {
+    "userId": 94,
+    "recordedAt": "2024-09-21T21:09:32",
+    "age": 24,
+    "gender": "female",
+    "travelType": "friends",
+    "interests": [
+      "adventure",
+      "culture",
+      "nature"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "winter",
+    "ecoFriendly": true,
+    "country": "JP"
+  },
+  {
+    "userId": 11,
+    "recordedAt": "2023-02-02T07:22:28",
+    "age": 23,
+    "gender": "female",
+    "travelType": "solo",
+    "interests": [
+      "adventure",
+      "culture",
+      "mountain",
+      "beach"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "autumn",
+    "ecoFriendly": true,
+    "country": "VN"
+  },
+  {
+    "userId": 46,
+    "recordedAt": "2023-07-07T13:01:21",
+    "age": 60,
+    "gender": "female",
+    "travelType": "solo",
+    "interests": [
+      "food",
+      "culture",
+      "adventure"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "summer",
+    "ecoFriendly": true,
+    "country": "IT"
+  },
+  {
+    "userId": 29,
+    "recordedAt": "2024-08-18T12:05:59",
+    "age": 24,
+    "gender": "female",
+    "travelType": "family",
+    "interests": [
+      "nature",
+      "culture"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "summer",
+    "ecoFriendly": false,
+    "country": "BR"
+  },
+  {
+    "userId": 99,
+    "recordedAt": "2024-12-19T02:27:20",
+    "age": 70,
+    "gender": "other",
+    "travelType": "solo",
+    "interests": [
+      "adventure",
+      "nature",
+      "culture",
+      "beach"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "autumn",
+    "ecoFriendly": false,
+    "country": "TH"
+  },
+  {
+    "userId": 45,
+    "recordedAt": "2024-03-09T02:43:15",
+    "age": 18,
+    "gender": "male",
+    "travelType": "couple",
+    "interests": [
+      "adventure",
+      "history",
+      "beach",
+      "mountain"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "spring",
+    "ecoFriendly": true,
+    "country": "BR"
+  },
+  {
+    "userId": 28,
+    "recordedAt": "2023-04-15T19:24:16",
+    "age": 42,
+    "gender": "female",
+    "travelType": "friends",
+    "interests": [
+      "mountain",
+      "culture",
+      "adventure"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "autumn",
+    "ecoFriendly": true,
+    "country": "KR"
+  },
+  {
+    "userId": 20,
+    "recordedAt": "2024-09-05T13:24:38",
+    "age": 28,
+    "gender": "other",
+    "travelType": "solo",
+    "interests": [
+      "beach",
+      "culture",
+      "history",
+      "food"
+    ],
+    "budgetLevel": "medium",
+    "preferredSeason": "winter",
+    "ecoFriendly": false,
+    "country": "ES"
+  },
+  {
+    "userId": 28,
+    "recordedAt": "2025-04-27T11:07:29",
+    "age": 66,
+    "gender": "other",
+    "travelType": "solo",
+    "interests": [
+      "history",
+      "beach",
+      "culture"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "winter",
+    "ecoFriendly": false,
+    "country": "KR"
+  },
+  {
+    "userId": 29,
+    "recordedAt": "2023-03-30T06:27:01",
+    "age": 43,
+    "gender": "other",
+    "travelType": "solo",
+    "interests": [
+      "mountain",
+      "culture"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "summer",
+    "ecoFriendly": false,
+    "country": "ES"
+  },
+  {
+    "userId": 42,
+    "recordedAt": "2023-09-18T00:37:15",
+    "age": 25,
+    "gender": "male",
+    "travelType": "friends",
+    "interests": [
+      "history",
+      "mountain",
+      "adventure",
+      "nature"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "summer",
+    "ecoFriendly": false,
+    "country": "JP"
+  },
+  {
+    "userId": 51,
+    "recordedAt": "2024-01-31T14:30:22",
+    "age": 65,
+    "gender": "male",
+    "travelType": "friends",
+    "interests": [
+      "history",
+      "beach"
+    ],
+    "budgetLevel": "medium",
+    "preferredSeason": "winter",
+    "ecoFriendly": false,
+    "country": "VN"
+  },
+  {
+    "userId": 38,
+    "recordedAt": "2025-03-30T05:18:00",
+    "age": 25,
+    "gender": "female",
+    "travelType": "solo",
+    "interests": [
+      "mountain",
+      "food",
+      "history"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "autumn",
+    "ecoFriendly": true,
+    "country": "VN"
+  },
+  {
+    "userId": 14,
+    "recordedAt": "2025-02-24T08:12:19",
+    "age": 33,
+    "gender": "female",
+    "travelType": "friends",
+    "interests": [
+      "beach",
+      "history",
+      "culture",
+      "food"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "autumn",
+    "ecoFriendly": true,
+    "country": "JP"
+  },
+  {
+    "userId": 66,
+    "recordedAt": "2023-12-22T21:07:14",
+    "age": 58,
+    "gender": "male",
+    "travelType": "couple",
+    "interests": [
+      "culture",
+      "adventure",
+      "mountain"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "spring",
+    "ecoFriendly": true,
+    "country": "ES"
+  },
+  {
+    "userId": 26,
+    "recordedAt": "2024-04-01T08:33:00",
+    "age": 29,
+    "gender": "other",
+    "travelType": "couple",
+    "interests": [
+      "beach",
+      "mountain",
+      "history",
+      "food"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "winter",
+    "ecoFriendly": false,
+    "country": "TH"
+  },
+  {
+    "userId": 20,
+    "recordedAt": "2024-08-02T19:37:16",
+    "age": 46,
+    "gender": "male",
+    "travelType": "friends",
+    "interests": [
+      "adventure",
+      "culture",
+      "nature"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "spring",
+    "ecoFriendly": false,
+    "country": "BR"
+  },
+  {
+    "userId": 10,
+    "recordedAt": "2024-04-22T03:37:07",
+    "age": 37,
+    "gender": "female",
+    "travelType": "friends",
+    "interests": [
+      "beach",
+      "culture"
+    ],
+    "budgetLevel": "medium",
+    "preferredSeason": "spring",
+    "ecoFriendly": true,
+    "country": "AU"
+  },
+  {
+    "userId": 77,
+    "recordedAt": "2022-11-25T18:21:31",
+    "age": 50,
+    "gender": "female",
+    "travelType": "friends",
+    "interests": [
+      "food",
+      "adventure",
+      "beach",
+      "history"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "summer",
+    "ecoFriendly": false,
+    "country": "AU"
+  },
+  {
+    "userId": 61,
+    "recordedAt": "2023-06-10T21:35:11",
+    "age": 50,
+    "gender": "male",
+    "travelType": "solo",
+    "interests": [
+      "beach",
+      "culture",
+      "nature"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "summer",
+    "ecoFriendly": true,
+    "country": "FR"
+  },
+  {
+    "userId": 91,
+    "recordedAt": "2023-05-05T20:19:09",
+    "age": 46,
+    "gender": "female",
+    "travelType": "couple",
+    "interests": [
+      "culture",
+      "nature",
+      "history"
+    ],
+    "budgetLevel": "medium",
+    "preferredSeason": "autumn",
+    "ecoFriendly": true,
+    "country": "TH"
+  },
+  {
+    "userId": 9,
+    "recordedAt": "2022-08-29T06:03:13",
+    "age": 39,
+    "gender": "male",
+    "travelType": "friends",
+    "interests": [
+      "culture",
+      "adventure",
+      "food"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "autumn",
+    "ecoFriendly": true,
+    "country": "AU"
+  },
+  {
+    "userId": 85,
+    "recordedAt": "2023-10-28T23:44:19",
+    "age": 27,
+    "gender": "female",
+    "travelType": "family",
+    "interests": [
+      "adventure",
+      "nature",
+      "history",
+      "mountain"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "spring",
+    "ecoFriendly": false,
+    "country": "BR"
+  },
+  {
+    "userId": 49,
+    "recordedAt": "2022-06-23T11:12:33",
+    "age": 59,
+    "gender": "female",
+    "travelType": "couple",
+    "interests": [
+      "adventure",
+      "nature",
+      "food",
+      "beach"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "winter",
+    "ecoFriendly": false,
+    "country": "KR"
+  },
+  {
+    "userId": 47,
+    "recordedAt": "2024-11-20T16:44:02",
+    "age": 37,
+    "gender": "male",
+    "travelType": "couple",
+    "interests": [
+      "nature",
+      "history",
+      "mountain"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "summer",
+    "ecoFriendly": true,
+    "country": "JP"
+  },
+  {
+    "userId": 38,
+    "recordedAt": "2024-09-28T06:41:11",
+    "age": 68,
+    "gender": "male",
+    "travelType": "solo",
+    "interests": [
+      "culture",
+      "food",
+      "mountain",
+      "history"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "summer",
+    "ecoFriendly": true,
+    "country": "AU"
+  },
+  {
+    "userId": 22,
+    "recordedAt": "2023-05-14T06:17:39",
+    "age": 64,
+    "gender": "female",
+    "travelType": "solo",
+    "interests": [
+      "culture",
+      "adventure",
+      "mountain"
+    ],
+    "budgetLevel": "medium",
+    "preferredSeason": "autumn",
+    "ecoFriendly": false,
+    "country": "FR"
+  },
+  {
+    "userId": 69,
+    "recordedAt": "2024-11-20T21:37:58",
+    "age": 33,
+    "gender": "female",
+    "travelType": "friends",
+    "interests": [
+      "culture",
+      "adventure"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "winter",
+    "ecoFriendly": false,
+    "country": "ES"
+  },
+  {
+    "userId": 100,
+    "recordedAt": "2023-04-28T21:17:40",
+    "age": 42,
+    "gender": "other",
+    "travelType": "friends",
+    "interests": [
+      "nature",
+      "mountain"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "summer",
+    "ecoFriendly": false,
+    "country": "KR"
+  },
+  {
+    "userId": 83,
+    "recordedAt": "2022-06-01T23:05:21",
+    "age": 48,
+    "gender": "female",
+    "travelType": "solo",
+    "interests": [
+      "nature",
+      "food",
+      "beach",
+      "culture"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "summer",
+    "ecoFriendly": false,
+    "country": "IT"
+  },
+  {
+    "userId": 66,
+    "recordedAt": "2022-09-09T01:48:33",
+    "age": 27,
+    "gender": "female",
+    "travelType": "solo",
+    "interests": [
+      "nature",
+      "history"
+    ],
+    "budgetLevel": "medium",
+    "preferredSeason": "spring",
+    "ecoFriendly": false,
+    "country": "KR"
+  },
+  {
+    "userId": 51,
+    "recordedAt": "2025-01-26T04:13:08",
+    "age": 50,
+    "gender": "female",
+    "travelType": "couple",
+    "interests": [
+      "beach",
+      "culture",
+      "mountain"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "autumn",
+    "ecoFriendly": true,
+    "country": "TH"
+  },
+  {
+    "userId": 19,
+    "recordedAt": "2022-08-21T05:58:06",
+    "age": 26,
+    "gender": "male",
+    "travelType": "family",
+    "interests": [
+      "adventure",
+      "mountain",
+      "history"
+    ],
+    "budgetLevel": "medium",
+    "preferredSeason": "spring",
+    "ecoFriendly": true,
+    "country": "KR"
+  },
+  {
+    "userId": 33,
+    "recordedAt": "2023-05-12T10:33:49",
+    "age": 31,
+    "gender": "male",
+    "travelType": "friends",
+    "interests": [
+      "nature",
+      "culture"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "autumn",
+    "ecoFriendly": true,
+    "country": "KR"
+  },
+  {
+    "userId": 31,
+    "recordedAt": "2022-09-03T11:51:41",
+    "age": 44,
+    "gender": "other",
+    "travelType": "friends",
+    "interests": [
+      "beach",
+      "history"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "spring",
+    "ecoFriendly": true,
+    "country": "US"
+  },
+  {
+    "userId": 38,
+    "recordedAt": "2022-07-09T14:09:18",
+    "age": 45,
+    "gender": "male",
+    "travelType": "family",
+    "interests": [
+      "food",
+      "history"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "spring",
+    "ecoFriendly": false,
+    "country": "JP"
+  },
+  {
+    "userId": 68,
+    "recordedAt": "2023-10-17T02:15:44",
+    "age": 52,
+    "gender": "other",
+    "travelType": "solo",
+    "interests": [
+      "nature",
+      "history",
+      "beach"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "winter",
+    "ecoFriendly": false,
+    "country": "ES"
+  },
+  {
+    "userId": 96,
+    "recordedAt": "2022-09-08T20:44:55",
+    "age": 19,
+    "gender": "female",
+    "travelType": "solo",
+    "interests": [
+      "mountain",
+      "adventure",
+      "beach"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "autumn",
+    "ecoFriendly": true,
+    "country": "KR"
+  },
+  {
+    "userId": 46,
+    "recordedAt": "2024-07-28T12:07:29",
+    "age": 52,
+    "gender": "female",
+    "travelType": "couple",
+    "interests": [
+      "history",
+      "adventure",
+      "nature",
+      "mountain"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "spring",
+    "ecoFriendly": false,
+    "country": "KR"
+  },
+  {
+    "userId": 38,
+    "recordedAt": "2023-05-26T12:27:04",
+    "age": 30,
+    "gender": "male",
+    "travelType": "couple",
+    "interests": [
+      "culture",
+      "nature"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "winter",
+    "ecoFriendly": false,
+    "country": "ES"
+  },
+  {
+    "userId": 5,
+    "recordedAt": "2023-07-28T09:22:48",
+    "age": 66,
+    "gender": "other",
+    "travelType": "couple",
+    "interests": [
+      "culture",
+      "beach",
+      "nature"
+    ],
+    "budgetLevel": "medium",
+    "preferredSeason": "spring",
+    "ecoFriendly": false,
+    "country": "VN"
+  },
+  {
+    "userId": 52,
+    "recordedAt": "2025-03-26T00:17:40",
+    "age": 65,
+    "gender": "female",
+    "travelType": "friends",
+    "interests": [
+      "mountain",
+      "history",
+      "adventure"
+    ],
+    "budgetLevel": "medium",
+    "preferredSeason": "autumn",
+    "ecoFriendly": true,
+    "country": "VN"
+  },
+  {
+    "userId": 11,
+    "recordedAt": "2024-06-13T20:33:34",
+    "age": 45,
+    "gender": "other",
+    "travelType": "couple",
+    "interests": [
+      "culture",
+      "nature",
+      "beach",
+      "food"
+    ],
+    "budgetLevel": "medium",
+    "preferredSeason": "autumn",
+    "ecoFriendly": false,
+    "country": "IT"
+  },
+  {
+    "userId": 78,
+    "recordedAt": "2023-04-19T14:19:20",
+    "age": 63,
+    "gender": "female",
+    "travelType": "couple",
+    "interests": [
+      "history",
+      "culture",
+      "nature",
+      "beach"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "autumn",
+    "ecoFriendly": false,
+    "country": "ES"
+  },
+  {
+    "userId": 82,
+    "recordedAt": "2024-09-05T11:05:36",
+    "age": 68,
+    "gender": "male",
+    "travelType": "solo",
+    "interests": [
+      "adventure",
+      "history",
+      "culture",
+      "mountain"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "summer",
+    "ecoFriendly": false,
+    "country": "KR"
+  },
+  {
+    "userId": 17,
+    "recordedAt": "2022-12-13T07:56:18",
+    "age": 22,
+    "gender": "male",
+    "travelType": "family",
+    "interests": [
+      "history",
+      "food",
+      "beach"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "summer",
+    "ecoFriendly": false,
+    "country": "TH"
+  },
+  {
+    "userId": 48,
+    "recordedAt": "2024-10-24T21:01:29",
+    "age": 46,
+    "gender": "male",
+    "travelType": "couple",
+    "interests": [
+      "culture",
+      "history",
+      "nature",
+      "food"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "spring",
+    "ecoFriendly": true,
+    "country": "US"
+  },
+  {
+    "userId": 64,
+    "recordedAt": "2024-11-01T21:43:21",
+    "age": 51,
+    "gender": "female",
+    "travelType": "solo",
+    "interests": [
+      "nature",
+      "culture",
+      "history"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "autumn",
+    "ecoFriendly": false,
+    "country": "FR"
+  },
+  {
+    "userId": 16,
+    "recordedAt": "2024-05-25T01:26:54",
+    "age": 26,
+    "gender": "male",
+    "travelType": "friends",
+    "interests": [
+      "adventure",
+      "history"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "autumn",
+    "ecoFriendly": false,
+    "country": "JP"
+  },
+  {
+    "userId": 71,
+    "recordedAt": "2023-06-03T06:35:20",
+    "age": 52,
+    "gender": "female",
+    "travelType": "family",
+    "interests": [
+      "adventure",
+      "nature"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "summer",
+    "ecoFriendly": false,
+    "country": "BR"
+  },
+  {
+    "userId": 29,
+    "recordedAt": "2024-05-25T12:42:16",
+    "age": 25,
+    "gender": "male",
+    "travelType": "couple",
+    "interests": [
+      "nature",
+      "history"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "autumn",
+    "ecoFriendly": false,
+    "country": "IT"
+  },
+  {
+    "userId": 71,
+    "recordedAt": "2024-02-13T03:17:26",
+    "age": 26,
+    "gender": "other",
+    "travelType": "solo",
+    "interests": [
+      "culture",
+      "history"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "winter",
+    "ecoFriendly": false,
+    "country": "VN"
+  },
+  {
+    "userId": 74,
+    "recordedAt": "2023-03-13T13:59:29",
+    "age": 22,
+    "gender": "male",
+    "travelType": "family",
+    "interests": [
+      "beach",
+      "history",
+      "adventure",
+      "culture"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "summer",
+    "ecoFriendly": true,
+    "country": "VN"
+  },
+  {
+    "userId": 65,
+    "recordedAt": "2022-10-15T07:42:57",
+    "age": 21,
+    "gender": "male",
+    "travelType": "couple",
+    "interests": [
+      "mountain",
+      "nature",
+      "culture"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "summer",
+    "ecoFriendly": false,
+    "country": "BR"
+  },
+  {
+    "userId": 37,
+    "recordedAt": "2022-10-19T08:50:16",
+    "age": 23,
+    "gender": "female",
+    "travelType": "couple",
+    "interests": [
+      "food",
+      "culture",
+      "mountain",
+      "adventure"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "spring",
+    "ecoFriendly": true,
+    "country": "AU"
+  },
+  {
+    "userId": 75,
+    "recordedAt": "2025-03-10T11:39:10",
+    "age": 27,
+    "gender": "male",
+    "travelType": "family",
+    "interests": [
+      "beach",
+      "nature",
+      "adventure",
+      "food"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "autumn",
+    "ecoFriendly": true,
+    "country": "AU"
+  },
+  {
+    "userId": 54,
+    "recordedAt": "2024-03-21T09:44:53",
+    "age": 57,
+    "gender": "other",
+    "travelType": "solo",
+    "interests": [
+      "adventure",
+      "food",
+      "culture"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "autumn",
+    "ecoFriendly": false,
+    "country": "FR"
+  },
+  {
+    "userId": 88,
+    "recordedAt": "2023-11-23T04:09:57",
+    "age": 43,
+    "gender": "female",
+    "travelType": "friends",
+    "interests": [
+      "adventure",
+      "beach"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "winter",
+    "ecoFriendly": false,
+    "country": "IT"
+  },
+  {
+    "userId": 60,
+    "recordedAt": "2024-03-09T19:09:03",
+    "age": 31,
+    "gender": "female",
+    "travelType": "couple",
+    "interests": [
+      "nature",
+      "adventure",
+      "culture"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "autumn",
+    "ecoFriendly": false,
+    "country": "US"
+  },
+  {
+    "userId": 98,
+    "recordedAt": "2024-02-19T09:59:56",
+    "age": 41,
+    "gender": "other",
+    "travelType": "solo",
+    "interests": [
+      "mountain",
+      "history",
+      "beach"
+    ],
+    "budgetLevel": "medium",
+    "preferredSeason": "winter",
+    "ecoFriendly": true,
+    "country": "US"
+  },
+  {
+    "userId": 13,
+    "recordedAt": "2024-05-16T06:56:12",
+    "age": 21,
+    "gender": "female",
+    "travelType": "friends",
+    "interests": [
+      "history",
+      "mountain",
+      "adventure",
+      "culture"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "autumn",
+    "ecoFriendly": true,
+    "country": "US"
+  },
+  {
+    "userId": 64,
+    "recordedAt": "2022-08-13T22:38:36",
+    "age": 50,
+    "gender": "female",
+    "travelType": "friends",
+    "interests": [
+      "history",
+      "beach",
+      "adventure"
+    ],
+    "budgetLevel": "medium",
+    "preferredSeason": "winter",
+    "ecoFriendly": true,
+    "country": "FR"
+  },
+  {
+    "userId": 75,
+    "recordedAt": "2025-04-01T19:50:42",
+    "age": 40,
+    "gender": "male",
+    "travelType": "solo",
+    "interests": [
+      "history",
+      "food",
+      "nature"
+    ],
+    "budgetLevel": "medium",
+    "preferredSeason": "spring",
+    "ecoFriendly": true,
+    "country": "VN"
+  },
+  {
+    "userId": 18,
+    "recordedAt": "2025-03-01T21:34:53",
+    "age": 34,
+    "gender": "other",
+    "travelType": "family",
+    "interests": [
+      "culture",
+      "beach",
+      "history"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "summer",
+    "ecoFriendly": false,
+    "country": "BR"
+  },
+  {
+    "userId": 37,
+    "recordedAt": "2025-02-18T14:19:21",
+    "age": 22,
+    "gender": "female",
+    "travelType": "friends",
+    "interests": [
+      "culture",
+      "food",
+      "adventure",
+      "beach"
+    ],
+    "budgetLevel": "low",
+    "preferredSeason": "spring",
+    "ecoFriendly": false,
+    "country": "TH"
+  },
+  {
+    "userId": 44,
+    "recordedAt": "2022-10-21T16:16:46",
+    "age": 53,
+    "gender": "female",
+    "travelType": "couple",
+    "interests": [
+      "food",
+      "nature"
+    ],
+    "budgetLevel": "medium",
+    "preferredSeason": "spring",
+    "ecoFriendly": true,
+    "country": "KR"
+  },
+  {
+    "userId": 18,
+    "recordedAt": "2022-08-23T22:47:58",
+    "age": 63,
+    "gender": "female",
+    "travelType": "friends",
+    "interests": [
+      "history",
+      "mountain",
+      "food",
+      "adventure"
+    ],
+    "budgetLevel": "medium",
+    "preferredSeason": "autumn",
+    "ecoFriendly": true,
+    "country": "VN"
+  },
+  {
+    "userId": 79,
+    "recordedAt": "2024-02-06T05:48:16",
+    "age": 65,
+    "gender": "female",
+    "travelType": "family",
+    "interests": [
+      "nature",
+      "food",
+      "adventure",
+      "history"
+    ],
+    "budgetLevel": "high",
+    "preferredSeason": "autumn",
+    "ecoFriendly": false,
+    "country": "KR"
+  }
+]

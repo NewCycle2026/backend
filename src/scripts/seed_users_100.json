@@ -1,0 +1,902 @@
+[
+  {
+    "email": "testuser1@wayple.io",
+    "password": "hashed_password",
+    "name": "Sylvia Hicks",
+    "nickname": "autumn36",
+    "role": "USER",
+    "createdAt": "2024-07-05T16:21:57",
+    "updatedAt": "2025-05-21T11:59:48.027585"
+  },
+  {
+    "email": "testuser2@wayple.io",
+    "password": "hashed_password",
+    "name": "Jennifer Montoya",
+    "nickname": "cynthia59",
+    "role": "USER",
+    "createdAt": "2023-09-07T14:19:34",
+    "updatedAt": "2025-05-21T11:59:48.028429"
+  },
+  {
+    "email": "testuser3@wayple.io",
+    "password": "hashed_password",
+    "name": "Haley Vaughn",
+    "nickname": "darlene56",
+    "role": "USER",
+    "createdAt": "2025-05-09T13:39:01",
+    "updatedAt": "2025-05-21T11:59:48.029181"
+  },
+  {
+    "email": "testuser4@wayple.io",
+    "password": "hashed_password",
+    "name": "Ebony Charles",
+    "nickname": "jerrydawson",
+    "role": "USER",
+    "createdAt": "2024-03-06T11:46:06",
+    "updatedAt": "2025-05-21T11:59:48.030442"
+  },
+  {
+    "email": "testuser5@wayple.io",
+    "password": "hashed_password",
+    "name": "Carmen Rivas",
+    "nickname": "paulfowler",
+    "role": "USER",
+    "createdAt": "2023-06-29T18:29:08",
+    "updatedAt": "2025-05-21T11:59:48.031692"
+  },
+  {
+    "email": "testuser6@wayple.io",
+    "password": "hashed_password",
+    "name": "Erin Collins",
+    "nickname": "stephen44",
+    "role": "USER",
+    "createdAt": "2023-06-13T13:37:33",
+    "updatedAt": "2025-05-21T11:59:48.032721"
+  },
+  {
+    "email": "testuser7@wayple.io",
+    "password": "hashed_password",
+    "name": "Alexander Carter",
+    "nickname": "sanchezwilliam",
+    "role": "USER",
+    "createdAt": "2025-01-09T12:42:20",
+    "updatedAt": "2025-05-21T11:59:48.033891"
+  },
+  {
+    "email": "testuser8@wayple.io",
+    "password": "hashed_password",
+    "name": "Michael Rodriguez",
+    "nickname": "schaefergary",
+    "role": "USER",
+    "createdAt": "2025-04-22T11:06:57",
+    "updatedAt": "2025-05-21T11:59:48.035245"
+  },
+  {
+    "email": "testuser9@wayple.io",
+    "password": "hashed_password",
+    "name": "Karen George",
+    "nickname": "thomaspoole",
+    "role": "USER",
+    "createdAt": "2025-04-16T14:20:36",
+    "updatedAt": "2025-05-21T11:59:48.036389"
+  },
+  {
+    "email": "testuser10@wayple.io",
+    "password": "hashed_password",
+    "name": "Ashley Davis",
+    "nickname": "reynoldsangela",
+    "role": "USER",
+    "createdAt": "2024-10-05T20:28:31",
+    "updatedAt": "2025-05-21T11:59:48.037478"
+  },
+  {
+    "email": "testuser11@wayple.io",
+    "password": "hashed_password",
+    "name": "Vanessa Sawyer",
+    "nickname": "hflowers",
+    "role": "USER",
+    "createdAt": "2025-01-07T03:43:48",
+    "updatedAt": "2025-05-21T11:59:48.038408"
+  },
+  {
+    "email": "testuser12@wayple.io",
+    "password": "hashed_password",
+    "name": "Kimberly Taylor",
+    "nickname": "vfletcher",
+    "role": "USER",
+    "createdAt": "2023-07-20T01:13:22",
+    "updatedAt": "2025-05-21T11:59:48.039258"
+  },
+  {
+    "email": "testuser13@wayple.io",
+    "password": "hashed_password",
+    "name": "John Reynolds",
+    "nickname": "kendra59",
+    "role": "USER",
+    "createdAt": "2024-08-01T22:54:33",
+    "updatedAt": "2025-05-21T11:59:48.040119"
+  },
+  {
+    "email": "testuser14@wayple.io",
+    "password": "hashed_password",
+    "name": "Michelle Ayala",
+    "nickname": "ynolan",
+    "role": "USER",
+    "createdAt": "2024-08-04T14:37:14",
+    "updatedAt": "2025-05-21T11:59:48.040960"
+  },
+  {
+    "email": "testuser15@wayple.io",
+    "password": "hashed_password",
+    "name": "Colleen Chavez",
+    "nickname": "roblescarlos",
+    "role": "USER",
+    "createdAt": "2024-07-19T02:47:41",
+    "updatedAt": "2025-05-21T11:59:48.041958"
+  },
+  {
+    "email": "testuser16@wayple.io",
+    "password": "hashed_password",
+    "name": "Robert Thomas",
+    "nickname": "murphynicholas",
+    "role": "USER",
+    "createdAt": "2023-09-02T23:07:30",
+    "updatedAt": "2025-05-21T11:59:48.043104"
+  },
+  {
+    "email": "testuser17@wayple.io",
+    "password": "hashed_password",
+    "name": "Laura Beard",
+    "nickname": "pcross",
+    "role": "USER",
+    "createdAt": "2023-12-06T10:08:11",
+    "updatedAt": "2025-05-21T11:59:48.043910"
+  },
+  {
+    "email": "testuser18@wayple.io",
+    "password": "hashed_password",
+    "name": "Michael Castillo",
+    "nickname": "wendybass",
+    "role": "USER",
+    "createdAt": "2024-04-07T21:43:18",
+    "updatedAt": "2025-05-21T11:59:48.044921"
+  },
+  {
+    "email": "testuser19@wayple.io",
+    "password": "hashed_password",
+    "name": "Patrick Bullock",
+    "nickname": "matthew24",
+    "role": "USER",
+    "createdAt": "2024-04-29T09:43:30",
+    "updatedAt": "2025-05-21T11:59:48.045626"
+  },
+  {
+    "email": "testuser20@wayple.io",
+    "password": "hashed_password",
+    "name": "Richard Hendricks",
+    "nickname": "ruben77",
+    "role": "USER",
+    "createdAt": "2023-06-19T22:16:51",
+    "updatedAt": "2025-05-21T11:59:48.046379"
+  },
+  {
+    "email": "testuser21@wayple.io",
+    "password": "hashed_password",
+    "name": "Dylan Morris",
+    "nickname": "bescobar",
+    "role": "USER",
+    "createdAt": "2024-12-23T21:05:41",
+    "updatedAt": "2025-05-21T11:59:48.047200"
+  },
+  {
+    "email": "testuser22@wayple.io",
+    "password": "hashed_password",
+    "name": "Brandon Flores",
+    "nickname": "qlowery",
+    "role": "USER",
+    "createdAt": "2025-02-06T18:07:28",
+    "updatedAt": "2025-05-21T11:59:48.047987"
+  },
+  {
+    "email": "testuser23@wayple.io",
+    "password": "hashed_password",
+    "name": "Veronica Burke",
+    "nickname": "robinsonrebecca",
+    "role": "USER",
+    "createdAt": "2023-10-28T14:21:41",
+    "updatedAt": "2025-05-21T11:59:48.049033"
+  },
+  {
+    "email": "testuser24@wayple.io",
+    "password": "hashed_password",
+    "name": "Michelle Baker",
+    "nickname": "tbradford",
+    "role": "USER",
+    "createdAt": "2023-10-15T04:56:33",
+    "updatedAt": "2025-05-21T11:59:48.050186"
+  },
+  {
+    "email": "testuser25@wayple.io",
+    "password": "hashed_password",
+    "name": "Samantha Ritter",
+    "nickname": "madisonbrown",
+    "role": "USER",
+    "createdAt": "2023-11-27T09:09:35",
+    "updatedAt": "2025-05-21T11:59:48.051211"
+  },
+  {
+    "email": "testuser26@wayple.io",
+    "password": "hashed_password",
+    "name": "Christine Ball",
+    "nickname": "kevin31",
+    "role": "USER",
+    "createdAt": "2023-09-29T03:07:04",
+    "updatedAt": "2025-05-21T11:59:48.051996"
+  },
+  {
+    "email": "testuser27@wayple.io",
+    "password": "hashed_password",
+    "name": "Jennifer Santos",
+    "nickname": "ashley22",
+    "role": "USER",
+    "createdAt": "2025-01-27T10:16:55",
+    "updatedAt": "2025-05-21T11:59:48.053016"
+  },
+  {
+    "email": "testuser28@wayple.io",
+    "password": "hashed_password",
+    "name": "Andrew Watson",
+    "nickname": "paularivers",
+    "role": "USER",
+    "createdAt": "2023-05-22T14:50:06",
+    "updatedAt": "2025-05-21T11:59:48.053891"
+  },
+  {
+    "email": "testuser29@wayple.io",
+    "password": "hashed_password",
+    "name": "Anita Rowe DVM",
+    "nickname": "johnsoncarol",
+    "role": "USER",
+    "createdAt": "2024-09-19T13:07:24",
+    "updatedAt": "2025-05-21T11:59:48.054853"
+  },
+  {
+    "email": "testuser30@wayple.io",
+    "password": "hashed_password",
+    "name": "Alexander Holloway",
+    "nickname": "yvette38",
+    "role": "USER",
+    "createdAt": "2024-03-22T04:14:53",
+    "updatedAt": "2025-05-21T11:59:48.055529"
+  },
+  {
+    "email": "testuser31@wayple.io",
+    "password": "hashed_password",
+    "name": "Isaac Pearson",
+    "nickname": "navarrojustin",
+    "role": "USER",
+    "createdAt": "2024-01-07T12:07:27",
+    "updatedAt": "2025-05-21T11:59:48.056649"
+  },
+  {
+    "email": "testuser32@wayple.io",
+    "password": "hashed_password",
+    "name": "Christopher Garcia",
+    "nickname": "allisonmcneil",
+    "role": "USER",
+    "createdAt": "2024-05-05T02:55:01",
+    "updatedAt": "2025-05-21T11:59:48.057624"
+  },
+  {
+    "email": "testuser33@wayple.io",
+    "password": "hashed_password",
+    "name": "Samantha Ortiz",
+    "nickname": "ylandry",
+    "role": "USER",
+    "createdAt": "2024-11-09T18:44:21",
+    "updatedAt": "2025-05-21T11:59:48.058508"
+  },
+  {
+    "email": "testuser34@wayple.io",
+    "password": "hashed_password",
+    "name": "Gilbert Davis",
+    "nickname": "jonathanpatton",
+    "role": "USER",
+    "createdAt": "2024-02-07T06:25:37",
+    "updatedAt": "2025-05-21T11:59:48.059536"
+  },
+  {
+    "email": "testuser35@wayple.io",
+    "password": "hashed_password",
+    "name": "Paula Logan",
+    "nickname": "frodriguez",
+    "role": "USER",
+    "createdAt": "2025-02-21T00:11:32",
+    "updatedAt": "2025-05-21T11:59:48.060467"
+  },
+  {
+    "email": "testuser36@wayple.io",
+    "password": "hashed_password",
+    "name": "Nicolas Ward",
+    "nickname": "qthornton",
+    "role": "USER",
+    "createdAt": "2024-09-25T17:41:19",
+    "updatedAt": "2025-05-21T11:59:48.061256"
+  },
+  {
+    "email": "testuser37@wayple.io",
+    "password": "hashed_password",
+    "name": "Mark Stevens",
+    "nickname": "joolson",
+    "role": "USER",
+    "createdAt": "2024-08-04T07:44:29",
+    "updatedAt": "2025-05-21T11:59:48.062236"
+  },
+  {
+    "email": "testuser38@wayple.io",
+    "password": "hashed_password",
+    "name": "Kristine Baird",
+    "nickname": "robert88",
+    "role": "USER",
+    "createdAt": "2024-09-18T08:03:01",
+    "updatedAt": "2025-05-21T11:59:48.063367"
+  },
+  {
+    "email": "testuser39@wayple.io",
+    "password": "hashed_password",
+    "name": "Tyler Peters",
+    "nickname": "amandadavis",
+    "role": "USER",
+    "createdAt": "2023-07-20T06:13:30",
+    "updatedAt": "2025-05-21T11:59:48.064373"
+  },
+  {
+    "email": "testuser40@wayple.io",
+    "password": "hashed_password",
+    "name": "Michael Herrera",
+    "nickname": "beckvalerie",
+    "role": "USER",
+    "createdAt": "2025-05-10T10:53:24",
+    "updatedAt": "2025-05-21T11:59:48.065425"
+  },
+  {
+    "email": "testuser41@wayple.io",
+    "password": "hashed_password",
+    "name": "Lynn Bradley",
+    "nickname": "qnavarro",
+    "role": "USER",
+    "createdAt": "2024-06-10T18:55:10",
+    "updatedAt": "2025-05-21T11:59:48.066256"
+  },
+  {
+    "email": "testuser42@wayple.io",
+    "password": "hashed_password",
+    "name": "Carol Flores",
+    "nickname": "vfrench",
+    "role": "USER",
+    "createdAt": "2024-05-03T23:03:35",
+    "updatedAt": "2025-05-21T11:59:48.067101"
+  },
+  {
+    "email": "testuser43@wayple.io",
+    "password": "hashed_password",
+    "name": "Kelly Clay",
+    "nickname": "rhubbard",
+    "role": "USER",
+    "createdAt": "2024-07-31T22:44:46",
+    "updatedAt": "2025-05-21T11:59:48.068001"
+  },
+  {
+    "email": "testuser44@wayple.io",
+    "password": "hashed_password",
+    "name": "Glenn Cohen",
+    "nickname": "davishannah",
+    "role": "USER",
+    "createdAt": "2025-01-03T20:06:21",
+    "updatedAt": "2025-05-21T11:59:48.068973"
+  },
+  {
+    "email": "testuser45@wayple.io",
+    "password": "hashed_password",
+    "name": "Lisa Evans",
+    "nickname": "gregory05",
+    "role": "USER",
+    "createdAt": "2025-04-26T18:02:15",
+    "updatedAt": "2025-05-21T11:59:48.069700"
+  },
+  {
+    "email": "testuser46@wayple.io",
+    "password": "hashed_password",
+    "name": "Isaac Padilla",
+    "nickname": "brownrobin",
+    "role": "USER",
+    "createdAt": "2025-05-20T09:06:38",
+    "updatedAt": "2025-05-21T11:59:48.071007"
+  },
+  {
+    "email": "testuser47@wayple.io",
+    "password": "hashed_password",
+    "name": "Lauren Ramirez",
+    "nickname": "angela79",
+    "role": "USER",
+    "createdAt": "2024-04-20T03:47:52",
+    "updatedAt": "2025-05-21T11:59:48.071735"
+  },
+  {
+    "email": "testuser48@wayple.io",
+    "password": "hashed_password",
+    "name": "Stephen Ellis",
+    "nickname": "lindsaywilson",
+    "role": "USER",
+    "createdAt": "2023-06-14T13:06:50",
+    "updatedAt": "2025-05-21T11:59:48.072739"
+  },
+  {
+    "email": "testuser49@wayple.io",
+    "password": "hashed_password",
+    "name": "Steven Lam",
+    "nickname": "stanleyjames",
+    "role": "USER",
+    "createdAt": "2024-05-29T22:02:01",
+    "updatedAt": "2025-05-21T11:59:48.073706"
+  },
+  {
+    "email": "testuser50@wayple.io",
+    "password": "hashed_password",
+    "name": "Timothy Valenzuela",
+    "nickname": "dbrown",
+    "role": "USER",
+    "createdAt": "2025-02-21T16:10:37",
+    "updatedAt": "2025-05-21T11:59:48.074572"
+  },
+  {
+    "email": "testuser51@wayple.io",
+    "password": "hashed_password",
+    "name": "Brandon Peters",
+    "nickname": "natalie24",
+    "role": "USER",
+    "createdAt": "2023-12-21T14:32:12",
+    "updatedAt": "2025-05-21T11:59:48.075311"
+  },
+  {
+    "email": "testuser52@wayple.io",
+    "password": "hashed_password",
+    "name": "Michael Garcia",
+    "nickname": "hedwards",
+    "role": "USER",
+    "createdAt": "2024-11-29T22:14:13",
+    "updatedAt": "2025-05-21T11:59:48.076099"
+  },
+  {
+    "email": "testuser53@wayple.io",
+    "password": "hashed_password",
+    "name": "Mark Boyd",
+    "nickname": "rodriguezemily",
+    "role": "USER",
+    "createdAt": "2024-06-28T23:51:36",
+    "updatedAt": "2025-05-21T11:59:48.077069"
+  },
+  {
+    "email": "testuser54@wayple.io",
+    "password": "hashed_password",
+    "name": "David Thompson",
+    "nickname": "brownbrian",
+    "role": "USER",
+    "createdAt": "2023-11-10T05:51:06",
+    "updatedAt": "2025-05-21T11:59:48.078024"
+  },
+  {
+    "email": "testuser55@wayple.io",
+    "password": "hashed_password",
+    "name": "Thomas Beck",
+    "nickname": "robert40",
+    "role": "USER",
+    "createdAt": "2024-05-22T19:20:31",
+    "updatedAt": "2025-05-21T11:59:48.078764"
+  },
+  {
+    "email": "testuser56@wayple.io",
+    "password": "hashed_password",
+    "name": "David Brown",
+    "nickname": "qcameron",
+    "role": "USER",
+    "createdAt": "2025-04-02T15:51:23",
+    "updatedAt": "2025-05-21T11:59:48.079512"
+  },
+  {
+    "email": "testuser57@wayple.io",
+    "password": "hashed_password",
+    "name": "Mark Ward",
+    "nickname": "johnscott",
+    "role": "USER",
+    "createdAt": "2024-08-03T05:08:07",
+    "updatedAt": "2025-05-21T11:59:48.080525"
+  },
+  {
+    "email": "testuser58@wayple.io",
+    "password": "hashed_password",
+    "name": "Stephen Miller",
+    "nickname": "karmstrong",
+    "role": "USER",
+    "createdAt": "2025-04-20T10:58:52",
+    "updatedAt": "2025-05-21T11:59:48.081244"
+  },
+  {
+    "email": "testuser59@wayple.io",
+    "password": "hashed_password",
+    "name": "Diana Ramos",
+    "nickname": "wmelendez",
+    "role": "USER",
+    "createdAt": "2024-03-07T11:30:40",
+    "updatedAt": "2025-05-21T11:59:48.081989"
+  },
+  {
+    "email": "testuser60@wayple.io",
+    "password": "hashed_password",
+    "name": "Lisa Norris",
+    "nickname": "katelynchandler",
+    "role": "USER",
+    "createdAt": "2024-10-21T10:17:40",
+    "updatedAt": "2025-05-21T11:59:48.082926"
+  },
+  {
+    "email": "testuser61@wayple.io",
+    "password": "hashed_password",
+    "name": "Robert Garza",
+    "nickname": "smithchristopher",
+    "role": "USER",
+    "createdAt": "2024-04-01T12:51:20",
+    "updatedAt": "2025-05-21T11:59:48.083936"
+  },
+  {
+    "email": "testuser62@wayple.io",
+    "password": "hashed_password",
+    "name": "Beth Lopez",
+    "nickname": "jeremy59",
+    "role": "USER",
+    "createdAt": "2025-02-12T21:01:44",
+    "updatedAt": "2025-05-21T11:59:48.084686"
+  },
+  {
+    "email": "testuser63@wayple.io",
+    "password": "hashed_password",
+    "name": "Ashley Torres",
+    "nickname": "syang",
+    "role": "USER",
+    "createdAt": "2024-11-20T12:45:41",
+    "updatedAt": "2025-05-21T11:59:48.085437"
+  },
+  {
+    "email": "testuser64@wayple.io",
+    "password": "hashed_password",
+    "name": "Micheal Nichols",
+    "nickname": "john92",
+    "role": "USER",
+    "createdAt": "2023-10-07T08:34:04",
+    "updatedAt": "2025-05-21T11:59:48.086379"
+  },
+  {
+    "email": "testuser65@wayple.io",
+    "password": "hashed_password",
+    "name": "Brandon Sanders",
+    "nickname": "david81",
+    "role": "USER",
+    "createdAt": "2025-01-10T11:21:58",
+    "updatedAt": "2025-05-21T11:59:48.087098"
+  },
+  {
+    "email": "testuser66@wayple.io",
+    "password": "hashed_password",
+    "name": "Carmen Baker",
+    "nickname": "mary00",
+    "role": "USER",
+    "createdAt": "2023-07-16T17:19:21",
+    "updatedAt": "2025-05-21T11:59:48.087789"
+  },
+  {
+    "email": "testuser67@wayple.io",
+    "password": "hashed_password",
+    "name": "Dale Porter",
+    "nickname": "mike09",
+    "role": "USER",
+    "createdAt": "2023-07-19T20:19:47",
+    "updatedAt": "2025-05-21T11:59:48.088473"
+  },
+  {
+    "email": "testuser68@wayple.io",
+    "password": "hashed_password",
+    "name": "James Coleman",
+    "nickname": "myang",
+    "role": "USER",
+    "createdAt": "2023-06-30T14:14:45",
+    "updatedAt": "2025-05-21T11:59:48.089239"
+  },
+  {
+    "email": "testuser69@wayple.io",
+    "password": "hashed_password",
+    "name": "Elaine Smith",
+    "nickname": "gjohnson",
+    "role": "USER",
+    "createdAt": "2024-11-07T07:44:38",
+    "updatedAt": "2025-05-21T11:59:48.089988"
+  },
+  {
+    "email": "testuser70@wayple.io",
+    "password": "hashed_password",
+    "name": "Tracy Butler",
+    "nickname": "heidi70",
+    "role": "USER",
+    "createdAt": "2025-04-29T11:41:39",
+    "updatedAt": "2025-05-21T11:59:48.090841"
+  },
+  {
+    "email": "testuser71@wayple.io",
+    "password": "hashed_password",
+    "name": "Sarah Dunlap",
+    "nickname": "rwilliams",
+    "role": "USER",
+    "createdAt": "2025-05-01T23:49:36",
+    "updatedAt": "2025-05-21T11:59:48.091637"
+  },
+  {
+    "email": "testuser72@wayple.io",
+    "password": "hashed_password",
+    "name": "John Thompson",
+    "nickname": "christophersmith",
+    "role": "USER",
+    "createdAt": "2023-06-01T07:50:47",
+    "updatedAt": "2025-05-21T11:59:48.092576"
+  },
+  {
+    "email": "testuser73@wayple.io",
+    "password": "hashed_password",
+    "name": "Vincent Sanchez",
+    "nickname": "robertsjustin",
+    "role": "USER",
+    "createdAt": "2024-08-19T19:52:13",
+    "updatedAt": "2025-05-21T11:59:48.093520"
+  },
+  {
+    "email": "testuser74@wayple.io",
+    "password": "hashed_password",
+    "name": "Samantha Olson",
+    "nickname": "emilygeorge",
+    "role": "USER",
+    "createdAt": "2025-02-03T06:01:04",
+    "updatedAt": "2025-05-21T11:59:48.094702"
+  },
+  {
+    "email": "testuser75@wayple.io",
+    "password": "hashed_password",
+    "name": "Ryan Cox",
+    "nickname": "patrick08",
+    "role": "USER",
+    "createdAt": "2024-06-20T05:30:00",
+    "updatedAt": "2025-05-21T11:59:48.095440"
+  },
+  {
+    "email": "testuser76@wayple.io",
+    "password": "hashed_password",
+    "name": "Kelsey Kirk",
+    "nickname": "goldentiffany",
+    "role": "USER",
+    "createdAt": "2023-12-07T16:21:37",
+    "updatedAt": "2025-05-21T11:59:48.096420"
+  },
+  {
+    "email": "testuser77@wayple.io",
+    "password": "hashed_password",
+    "name": "Connie Simon",
+    "nickname": "hodgesmason",
+    "role": "USER",
+    "createdAt": "2024-12-17T22:45:47",
+    "updatedAt": "2025-05-21T11:59:48.097387"
+  },
+  {
+    "email": "testuser78@wayple.io",
+    "password": "hashed_password",
+    "name": "Aaron Williams",
+    "nickname": "uyoung",
+    "role": "USER",
+    "createdAt": "2023-11-05T14:05:47",
+    "updatedAt": "2025-05-21T11:59:48.098160"
+  },
+  {
+    "email": "testuser79@wayple.io",
+    "password": "hashed_password",
+    "name": "Terrence Nelson",
+    "nickname": "kthompson",
+    "role": "USER",
+    "createdAt": "2025-05-21T00:06:04",
+    "updatedAt": "2025-05-21T11:59:48.098997"
+  },
+  {
+    "email": "testuser80@wayple.io",
+    "password": "hashed_password",
+    "name": "Richard Hunt",
+    "nickname": "michaelschmidt",
+    "role": "USER",
+    "createdAt": "2024-02-15T20:44:06",
+    "updatedAt": "2025-05-21T11:59:48.100031"
+  },
+  {
+    "email": "testuser81@wayple.io",
+    "password": "hashed_password",
+    "name": "Daniel Morgan",
+    "nickname": "longshawn",
+    "role": "USER",
+    "createdAt": "2023-07-13T21:17:17",
+    "updatedAt": "2025-05-21T11:59:48.101055"
+  },
+  {
+    "email": "testuser82@wayple.io",
+    "password": "hashed_password",
+    "name": "Brendan Moreno",
+    "nickname": "williamsdavid",
+    "role": "USER",
+    "createdAt": "2023-10-28T16:20:56",
+    "updatedAt": "2025-05-21T11:59:48.101977"
+  },
+  {
+    "email": "testuser83@wayple.io",
+    "password": "hashed_password",
+    "name": "Amy Tran",
+    "nickname": "dwayne79",
+    "role": "USER",
+    "createdAt": "2024-05-04T12:41:52",
+    "updatedAt": "2025-05-21T11:59:48.102718"
+  },
+  {
+    "email": "testuser84@wayple.io",
+    "password": "hashed_password",
+    "name": "Heather Jennings",
+    "nickname": "williamsnicholas",
+    "role": "USER",
+    "createdAt": "2024-03-02T07:49:17",
+    "updatedAt": "2025-05-21T11:59:48.103612"
+  },
+  {
+    "email": "testuser85@wayple.io",
+    "password": "hashed_password",
+    "name": "Brianna Cook",
+    "nickname": "jimenezdeanna",
+    "role": "USER",
+    "createdAt": "2023-10-06T23:57:48",
+    "updatedAt": "2025-05-21T11:59:48.104263"
+  },
+  {
+    "email": "testuser86@wayple.io",
+    "password": "hashed_password",
+    "name": "Rebecca Vaughn",
+    "nickname": "mwilliams",
+    "role": "USER",
+    "createdAt": "2024-09-05T08:17:28",
+    "updatedAt": "2025-05-21T11:59:48.104839"
+  },
+  {
+    "email": "testuser87@wayple.io",
+    "password": "hashed_password",
+    "name": "Mark Moreno",
+    "nickname": "shaun60",
+    "role": "USER",
+    "createdAt": "2023-06-23T17:08:40",
+    "updatedAt": "2025-05-21T11:59:48.105357"
+  },
+  {
+    "email": "testuser88@wayple.io",
+    "password": "hashed_password",
+    "name": "Bruce Walker",
+    "nickname": "pearsonallison",
+    "role": "USER",
+    "createdAt": "2024-09-27T05:09:26",
+    "updatedAt": "2025-05-21T11:59:48.105924"
+  },
+  {
+    "email": "testuser89@wayple.io",
+    "password": "hashed_password",
+    "name": "Jesse Edwards",
+    "nickname": "thompsonpaul",
+    "role": "USER",
+    "createdAt": "2023-12-14T17:48:59",
+    "updatedAt": "2025-05-21T11:59:48.106924"
+  },
+  {
+    "email": "testuser90@wayple.io",
+    "password": "hashed_password",
+    "name": "Nicole Small",
+    "nickname": "david82",
+    "role": "USER",
+    "createdAt": "2025-02-08T23:34:18",
+    "updatedAt": "2025-05-21T11:59:48.107498"
+  },
+  {
+    "email": "testuser91@wayple.io",
+    "password": "hashed_password",
+    "name": "Marvin Wilson",
+    "nickname": "lsherman",
+    "role": "USER",
+    "createdAt": "2024-06-28T23:42:05",
+    "updatedAt": "2025-05-21T11:59:48.108042"
+  },
+  {
+    "email": "testuser92@wayple.io",
+    "password": "hashed_password",
+    "name": "Jason Howe",
+    "nickname": "montgomerysusan",
+    "role": "USER",
+    "createdAt": "2024-01-11T23:00:51",
+    "updatedAt": "2025-05-21T11:59:48.108855"
+  },
+  {
+    "email": "testuser93@wayple.io",
+    "password": "hashed_password",
+    "name": "Tara Hoover",
+    "nickname": "asims",
+    "role": "USER",
+    "createdAt": "2024-07-17T05:02:59",
+    "updatedAt": "2025-05-21T11:59:48.109505"
+  },
+  {
+    "email": "testuser94@wayple.io",
+    "password": "hashed_password",
+    "name": "Erica Taylor",
+    "nickname": "nicolemiller",
+    "role": "USER",
+    "createdAt": "2024-03-04T10:50:10",
+    "updatedAt": "2025-05-21T11:59:48.110182"
+  },
+  {
+    "email": "testuser95@wayple.io",
+    "password": "hashed_password",
+    "name": "Eric Nicholson",
+    "nickname": "timothy38",
+    "role": "USER",
+    "createdAt": "2023-12-22T19:42:55",
+    "updatedAt": "2025-05-21T11:59:48.110884"
+  },
+  {
+    "email": "testuser96@wayple.io",
+    "password": "hashed_password",
+    "name": "Tyler Jackson",
+    "nickname": "iporter",
+    "role": "USER",
+    "createdAt": "2023-11-09T03:45:22",
+    "updatedAt": "2025-05-21T11:59:48.111403"
+  },
+  {
+    "email": "testuser97@wayple.io",
+    "password": "hashed_password",
+    "name": "Jordan Cruz",
+    "nickname": "perezdaniel",
+    "role": "USER",
+    "createdAt": "2023-07-08T06:35:03",
+    "updatedAt": "2025-05-21T11:59:48.112085"
+  },
+  {
+    "email": "testuser98@wayple.io",
+    "password": "hashed_password",
+    "name": "Brian Banks",
+    "nickname": "corybrown",
+    "role": "USER",
+    "createdAt": "2024-03-11T10:29:42",
+    "updatedAt": "2025-05-21T11:59:48.112660"
+  },
+  {
+    "email": "testuser99@wayple.io",
+    "password": "hashed_password",
+    "name": "Andrew Green",
+    "nickname": "emilyperkins",
+    "role": "USER",
+    "createdAt": "2024-05-27T01:19:13",
+    "updatedAt": "2025-05-21T11:59:48.113373"
+  },
+  {
+    "email": "testuser100@wayple.io",
+    "password": "hashed_password",
+    "name": "Cody Golden",
+    "nickname": "gking",
+    "role": "USER",
+    "createdAt": "2023-07-13T11:02:18",
+    "updatedAt": "2025-05-21T11:59:48.113803"
+  }
+]

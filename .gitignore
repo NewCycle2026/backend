@@ -1,0 +1,57 @@
+# ✅ 컴파일 결과물
+/dist
+/node_modules
+/build
+/tsconfig.build.tsbuildinfo  # 🔥 추가 추천: NestJS build 캐시
+
+# ✅ 로그 및 리포트
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# ✅ 운영체제 시스템 파일
+.DS_Store
+
+# ✅ 테스트 관련
+/coverage
+/.nyc_output
+
+# ✅ IDE/에디터
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+/.vscode/*
+
+# VSCode 설정 파일만 추적 (선택)
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ✅ 환경변수 및 민감 정보
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# ✅ 임시파일 및 PID
+.temp
+.tmp
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# ✅ 🔥 웨이플 특화: 업로드 파일, 자동 생성 폴더
+/uploads/                # 업로드된 이미지/파일
+/generated/              # 예: Prisma client, GraphQL codegen
+/images/                 # 로컬 이미지 자산 폴더
