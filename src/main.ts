@@ -9,7 +9,6 @@ import { join } from 'path';
 
 const envFile = `.env.${process.env.NODE_ENV ?? 'development'}`;
 dotenv.config({ path: envFile });
->>>>>>> 1ac5c1d (env setup)
 
 async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
