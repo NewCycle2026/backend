@@ -81,7 +81,7 @@ export class AdminAccountController {
   @UseGuards(AdminJwtGuard, RolesGuard)
   @Roles('ADMIN')
   @ApiBearerAuth()
-  @ApiOperation({ summary: '관리자 계정 수정 (SUPER 전용)' })
+  @ApiOperation({ summary: '관리자 계정 수정' })
   updateAdmin(
     @Param('id') id: string,
     @Body() dto: AdminAccountUpdateDto,
@@ -93,7 +93,7 @@ export class AdminAccountController {
   @UseGuards(AdminJwtGuard, RolesGuard)
   @Roles('ADMIN')
   @ApiBearerAuth()
-  @ApiOperation({ summary: '관리자 비밀번호 초기화 (SUPER 전용)' })
+  @ApiOperation({ summary: '관리자 비밀번호 초기화' })
   resetPassword(
     @Param('id') id: string,
     @Body() dto: AdminAccountResetPasswordDto,
@@ -103,7 +103,7 @@ export class AdminAccountController {
 
   @Patch(':id/restore')
   //@UseGuards(AdminJwtGuard, RolesGuard)
-  @Roles('ADMIN')
+  @Roles('SUPER')
   @ApiBearerAuth()
   @ApiOperation({ summary: '삭제된 관리자 복구 (SUPER 전용)' })
   restoreAdmin(@Param('id') id: string) {
@@ -112,7 +112,7 @@ export class AdminAccountController {
 
   @Delete(':id')
   @UseGuards(AdminJwtGuard, RolesGuard)
-  @Roles('ADMIN')
+  @Roles('SUPER')
   @ApiBearerAuth()
   @ApiOperation({ summary: '관리자 계정 삭제 (소프트 삭제, SUPER 전용)' })
   deleteAdmin(@Param('id') id: string) {

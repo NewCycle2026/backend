@@ -8,6 +8,6 @@ export class AdminAuthLoginDto {
   email!: string;
 
   @IsString()
-  @ApiProperty({ example: 'WaypleSecure2025!' })
+  @ApiProperty({ example: '1234' })
   password!: string;
 }

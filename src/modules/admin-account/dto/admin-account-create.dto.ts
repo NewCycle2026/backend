@@ -10,7 +10,7 @@ export class AdminAccountCreateDto {
 
   @IsString()
   @MinLength(6)
-  @ApiProperty({ example: 'WaypleSecure2025!' })
+  @ApiProperty({ example: '1234' })
   password!: string;
 
   @IsEnum(AdminRole)
