@@ -1,29 +1,47 @@
 // src/main.js
-import { AppModule } from '@/app.module'; // alias 사용 예
+import { AppModule } from '@/app.module';
 import { NestFactory } from '@nestjs/core';
 import { NestExpressApplication } from '@nestjs/platform-express';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
-import 'module-alias/register'; // ★ alias 런타임 등록
+import * as dotenv from 'dotenv';
+import 'module-alias/register';
 import { join } from 'path';
+
+dotenv.config(); // .env 로드
 
 async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
 
-  app.setGlobalPrefix('api'); // ✅ 이거 추가!
-  // ✅ CORS 설정 추가 (프론트엔드 localhost:5173 허용)
+  // ✅ 글로벌 prefix
+  app.setGlobalPrefix('api');
+
+  // ✅ 정적 파일 서빙 (예: /uploads/123.jpg)
+  app.useStaticAssets(join(__dirname, '..', 'uploads'));
+
+  // ✅ 환경 변수 기반 CORS 설정
+  const allowedOrigins = (process.env.ALLOWED_ORIGINS ?? '')
+    .split(',')
+    .map(origin => origin.trim())
+    .filter(Boolean); // 빈 값 제거
+
   app.enableCors({
-    origin: 'http://localhost:5173',
-    credentials: true, // axios 요청이 withCredentials: true 일 때 필요
+    origin: (origin, callback) => {
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        console.warn(`❌ CORS 차단됨: ${origin}`);
+        callback(new Error('Not allowed by CORS'));
+      }
+    },
+    credentials: true,
   });
 
-  // 📁 정적 파일 서빙 (예: 업로드 이미지 접근 허용)
-  app.useStaticAssets(join(__dirname, '..', 'uploads')); // 파일 업로드
-
+  // ✅ Swagger 설정
   const config = new DocumentBuilder()
     .setTitle('Wayple API')
-    .setDescription('API 명세서입니다')
+    .setDescription('웨이플 API 명세서')
     .setVersion('1.0')
-    .addBearerAuth( 
+    .addBearerAuth(
       {
         type: 'http',
         scheme: 'bearer',
@@ -36,9 +54,14 @@ async function bootstrap() {
     .build();
 
   const document = SwaggerModule.createDocument(app, config);
-  SwaggerModule.setup('api', app, document);
+  SwaggerModule.setup('api', app, document, {
+    swaggerOptions: {
+      persistAuthorization: true, // 로그인 상태 유지
+    },
+  });
 
-  const PORT = 3001;
+  // ✅ 서버 포트
+  const PORT = process.env.PORT || 3001;
   await app.listen(PORT);
   console.log(`🚀 Wayple API is running on http://localhost:${PORT}`);
 }

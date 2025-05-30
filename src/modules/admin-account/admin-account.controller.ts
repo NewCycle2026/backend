@@ -33,7 +33,7 @@ export class AdminAccountController {
   @UseGuards(AdminJwtGuard, RolesGuard)
   @Roles('ADMIN')
   @ApiBearerAuth()
-  @ApiOperation({ summary: '관리자 계정 생성 (SUPER 전용)' })
+  @ApiOperation({ summary: '관리자 계정 생성' })
   create(@Body() dto: AdminAccountCreateDto) {
     return this.adminAccountService.createAdmin(dto);
   }
