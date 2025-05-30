@@ -37,11 +37,8 @@ report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 !.vscode/extensions.json
 
 # ✅ 환경변수 및 민감 정보
-.env
-.env.development.local
-.env.test.local
-.env.production.local
-.env.local
+.env.development
+.env.production
 
 # ✅ 임시파일 및 PID
 .temp
